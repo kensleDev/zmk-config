@@ -28,20 +28,19 @@
                      &kp RALT &lt LOWER BKSP &kp SPC   &kp M &lt RAISE SPC &kp LGUI
                         >;
                 };
-                lower_layer { 
+                lower_layer {          
 // -----------------------------------------------------------------------------------------
 // |      |  !  |  @  |  #  |  _  |  %  |   |  6  |  7  |  8  |  9  |  +  |      |
 // |      |     | `   |  "  |  '  |  ^  |   |  $  |  4  |  5  |  6  |  -  |      |
 // |      |  |  |  [  |  {  |  (  |  &  |   |  =  |  1  |  2  |  3  |  *  |      |
 //                    | GUI |     |     |   |     |     |  0  |
                         bindings = <
-   &trans &kp BANG  &kp ATSN     &kp HASH &trans    &kp PRCT    &kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 &trans
+   &trans &kp BANG  &kp ATSN     &kp HASH &trans    &kp PRCT    &kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp KPLS  &trans
    &trans &trans    &kp GRAV     &trans   &kp QUOT  &kp CRRT    &kp CURU  &kp NUM_4 &kp NUM_5 &kp NUM_6 &kp MINUS &trans
-   &trans &kp PIPE  &kp LBKT     &kp LPRN &kp LBKT  &kp AMPS    &kp EQL   &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp ATSN  &trans
+   &trans &kp PIPE  &kp LBKT     &kp LPRN &kp LBKT  &kp AMPS    &kp EQL   &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp KMLT  &trans
                                  &trans   &trans    &trans      &trans    &trans    &kp NUM_0
                         >;
                 };
-
                 raise_layer {
 // -----------------------------------------------------------------------------------------
 // |      |     |     | F10 | F11 | F12 |   |     |     |     |     |      |     |
