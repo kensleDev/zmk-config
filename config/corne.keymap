@@ -25,8 +25,8 @@
    &trans &kp Q      &kp W &kp E &kp R &kp T   &kp Y   &kp U  &kp I    &kp O   &kp P         &trans
    &trans &kp A      &kp S &kp D &kp F &kp G   &kp H   &kp J  &kp K    &kp L   &kp SCLN      &trans
    &trans &mt LSFT Z &kp X &kp C &kp V &kp B   &kp N   &kp M  &kp CMMA &kp DOT &mt RSFT FSLH &trans
-                     &kp RALT &lt LOWER BKSP &kp SPC   &kp M &lt RAISE SPC &kp LGUI
-                        >;
+                     &kp RALT &lt LOWER BKSP &kp SPC   &kp M  &lt RAISE SPC &kp LGUI
+                        >;  
                 };
                 lower_layer {          
 // -----------------------------------------------------------------------------------------
@@ -55,5 +55,4 @@
                         >;
                 };
         };
-};
-
+};   
